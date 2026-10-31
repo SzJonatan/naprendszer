@@ -1,0 +1,32 @@
+project:
+  type: book
+
+lang: hu
+
+language:
+  crossref-exr-title: "Feladat"
+
+book:
+  title: "A Naprendszer"
+  subtitle: "Gyakorlókönyv a Quarto megismeréséhez"
+  author: "<Neved>"
+  date: today
+  chapters:
+    - index.qmd
+    - 01-bolygok.qmd
+    - 02-kepler.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    pdf-engine: lualatex
+    fig-pos: "H"
+
+execute:
+  echo: false
+  freeze: auto

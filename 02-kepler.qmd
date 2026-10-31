@@ -1,0 +1,75 @@
+# Kepler törvényei
+
+Johannes Kepler a 17. század elején három törvényben foglalta össze a
+bolygók mozgását.
+
+::: {.callout-note}
+## Kepler három törvénye
+
+1. A bolygók ellipszispályán keringenek, amelynek egyik gyújtópontjában
+   a Nap áll.
+2. A Naptól a bolygóhoz húzott szakasz egyenlő idők alatt egyenlő
+   területeket súrol.
+3. A keringési idők négyzetei úgy aránylanak egymáshoz, mint a pályák
+   fél nagytengelyeinek köbei.
+:::
+
+## A harmadik törvény {#sec-kepler3}
+
+Ha a keringési időt ($T$) években, a távolságot ($a$) csillagászati
+egységben mérjük, a harmadik törvény egyszerű alakot ölt:
+
+$$
+T^2 = a^3
+$$ {#eq-kepler3}
+
+Ebből a keringési idő:
+
+$$
+T = \sqrt{a^3} = a^{3/2}
+$$ {#eq-keringesi-ido}
+
+Ellenőrzés a Marsra: $T = 1{,}524^{3/2} \approx 1{,}88$ év, ami egyezik
+az [-@tbl-bolygok]. táblázat értékével.
+
+::: {.callout-warning}
+## Figyelem
+Az egyszerű $T^2 = a^3$ alak csak a Nap körül keringő testekre és csak
+ezekben a mértékegységekben érvényes.
+:::
+
+## Feladatok
+
+::: {#exr-kisbolygo}
+Egy kisbolygó 4 CSE közepes távolságban kering a Nap körül.
+Mennyi a keringési ideje?
+:::
+
+::: {.callout-tip collapse="true"}
+## Megoldás
+
+Az [-@eq-keringesi-ido]. egyenletbe helyettesítve:
+
+$$
+T = a^{3/2} = 4^{3/2} = \sqrt{4^3} = \sqrt{64} = 8\ \text{év}
+$$
+:::
+
+::: {#exr-jupiter}
+A Jupiter keringési ideje 11,86 év. Mekkora a közepes távolsága a Naptól?
+:::
+
+::: {.callout-tip collapse="true"}
+## Megoldás
+
+Az [-@eq-kepler3]. egyenletet $a$-ra rendezve:
+
+$$
+\begin{aligned}
+a^3 &= T^2 \\
+a   &= T^{2/3} = 11{,}86^{2/3} \approx 5{,}20\ \text{CSE}
+\end{aligned}
+$$
+
+Az eredmény egyezik az [-@tbl-bolygok]. táblázat értékével.
+:::

@@ -1,0 +1,5 @@
+# Előszó {.unnumbered}
+
+Ez a kis könyv a **Quarto** kipróbálására készült. Bemutatja a Naprendszer
+bolygóit és Kepler törvényeit, közben pedig sorra veszi a Quarto
+legfontosabb elemeit: táblázatot, ábrát, képletet és feladatot.

@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Naprendszer",
+    "section": "",
+    "text": "Előszó\nEz a kis könyv a Quarto kipróbálására készült. Bemutatja a Naprendszer bolygóit és Kepler törvényeit, közben pedig sorra veszi a Quarto legfontosabb elemeit: táblázatot, ábrát, képletet és feladatot.",
+    "crumbs": [
+      "Előszó"
+    ]
+  },
+  {
+    "objectID": "01-bolygok.html",
+    "href": "01-bolygok.html",
+    "title": "1  A bolygók",
+    "section": "",
+    "text": "1.1 A pályák ábrázolása\nA Naprendszerben nyolc bolygó kering a Nap körül. Pályájuk két fő adatát az 1.1. táblázat tartalmazza.\nA csillagászati egység (CSE) a Föld–Nap közepes távolság, kb. 150 millió km.\nA keringési időt a távolság függvényében az 1.1. ábra mutatja.\nFigure 1.1: Keringési idő a Naptól mért távolság függvényében\nLogaritmikus skálán a pontok egy egyenesre esnek. Ez Kepler III. törvényének következménye (lásd Section 2.1).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>A bolygók</span>"
+    ]
+  },
+  {
+    "objectID": "02-kepler.html",
+    "href": "02-kepler.html",
+    "title": "2  Kepler törvényei",
+    "section": "",
+    "text": "2.1 A harmadik törvény\nJohannes Kepler a 17. század elején három törvényben foglalta össze a bolygók mozgását.\nHa a keringési időt (\\(T\\)) években, a távolságot (\\(a\\)) csillagászati egységben mérjük, a harmadik törvény egyszerű alakot ölt:\n\\[\nT^2 = a^3\n\\tag{2.1}\\]\nEbből a keringési idő:\n\\[\nT = \\sqrt{a^3} = a^{3/2}\n\\tag{2.2}\\]\nEllenőrzés a Marsra: \\(T = 1{,}524^{3/2} \\approx 1{,}88\\) év, ami egyezik az 1.1. táblázat értékével.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kepler törvényei</span>"
+    ]
+  },
+  {
+    "objectID": "02-kepler.html#sec-kepler3",
+    "href": "02-kepler.html#sec-kepler3",
+    "title": "2  Kepler törvényei",
+    "section": "",
+    "text": "WarningFigyelem\n\n\n\nAz egyszerű \\(T^2 = a^3\\) alak csak a Nap körül keringő testekre és csak ezekben a mértékegységekben érvényes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kepler törvényei</span>"
+    ]
+  },
+  {
+    "objectID": "02-kepler.html#feladatok",
+    "href": "02-kepler.html#feladatok",
+    "title": "2  Kepler törvényei",
+    "section": "2.2 Feladatok",
+    "text": "2.2 Feladatok\n\nFeladat 2.1 Egy kisbolygó 4 CSE közepes távolságban kering a Nap körül. Mennyi a keringési ideje?\n\n\n\n\n\n\n\nTipMegoldás\n\n\n\n\n\nAz 2.2. egyenletbe helyettesítve:\n\\[\nT = a^{3/2} = 4^{3/2} = \\sqrt{4^3} = \\sqrt{64} = 8\\ \\text{év}\n\\]\n\n\n\n\nFeladat 2.2 A Jupiter keringési ideje 11,86 év. Mekkora a közepes távolsága a Naptól?\n\n\n\n\n\n\n\nTipMegoldás\n\n\n\n\n\nAz 2.1. egyenletet \\(a\\)-ra rendezve:\n\\[\n\\begin{aligned}\na^3 &= T^2 \\\\\na   &= T^{2/3} = 11{,}86^{2/3} \\approx 5{,}20\\ \\text{CSE}\n\\end{aligned}\n\\]\nAz eredmény egyezik az 1.1. táblázat értékével.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kepler törvényei</span>"
+    ]
+  }
+]

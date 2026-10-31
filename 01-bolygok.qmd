@@ -1,0 +1,48 @@
+# A bolygók {#sec-bolygok}
+
+A Naprendszerben nyolc bolygó kering a Nap körül. Pályájuk két fő adatát
+az [-@tbl-bolygok]. táblázat tartalmazza.
+
+| Bolygó     | Közepes távolság (CSE) | Keringési idő (év) |
+|:-----------|-----------------------:|-------------------:|
+| Merkúr     | 0,387                  | 0,241              |
+| Vénusz     | 0,723                  | 0,615              |
+| Föld       | 1,000                  | 1,000              |
+| Mars       | 1,524                  | 1,881              |
+| Jupiter    | 5,203                  | 11,86              |
+| Szaturnusz | 9,537                  | 29,46              |
+| Uránusz    | 19,19                  | 84,01              |
+| Neptunusz  | 30,07                  | 164,8              |
+
+: A bolygók pályaadatai {#tbl-bolygok}
+
+A csillagászati egység (CSE) a Föld–Nap közepes távolság, kb. 150 millió km.
+
+## A pályák ábrázolása
+
+A keringési időt a távolság függvényében az [-@fig-kepler]. ábra mutatja.
+
+```{python}
+#| label: fig-kepler
+#| fig-cap: "Keringési idő a Naptól mért távolság függvényében"
+
+import matplotlib.pyplot as plt
+
+nevek = ["Merkúr", "Vénusz", "Föld", "Mars",
+         "Jupiter", "Szaturnusz", "Uránusz", "Neptunusz"]
+a = [0.387, 0.723, 1.0, 1.524, 5.203, 9.537, 19.19, 30.07]
+T = [0.241, 0.615, 1.0, 1.881, 11.86, 29.46, 84.01, 164.8]
+
+fig, ax = plt.subplots(figsize=(6, 4))
+ax.loglog(a, T, "o")
+for nev, x, y in zip(nevek, a, T):
+    ax.annotate(nev, (x, y), textcoords="offset points",
+                xytext=(5, -10), fontsize=8)
+ax.set_xlabel("Közepes távolság [CSE]")
+ax.set_ylabel("Keringési idő [év]")
+ax.grid(True, which="both", alpha=0.3)
+plt.show()
+```
+
+Logaritmikus skálán a pontok egy egyenesre esnek. Ez Kepler III. törvényének
+következménye (lásd @sec-kepler3).
