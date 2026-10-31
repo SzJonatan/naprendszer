@@ -46,3 +46,8 @@ plt.show()
 
 Logaritmikus skálán a pontok egy egyenesre esnek. Ez Kepler III. törvényének
 következménye (lásd @sec-kepler3).
+
+::: {.callout-important}
+## Mi lett a Plútóval?
+2006 óta a Plútó törpebolygónak számít, ezért nem szerepel a táblázatban.
+:::
